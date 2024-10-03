@@ -1,0 +1,268 @@
+# Copyright (C) 2021 WP White Security
+# This file is distributed under the same license as the WP Activity Log for WPForms plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Activity Log for WPForms 1.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wsal-wpforms\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-27T11:14:53+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: wsal-wpforms\n"
+
+#. Plugin Name of the plugin
+msgid "WP Activity Log for WPForms"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpactivitylog.com/extensions/wpforms-activity-log/"
+msgstr ""
+
+#. Description of the plugin
+msgid "A WP Activity Log plugin extension to keep a log of changes within WPForms."
+msgstr ""
+
+#. Author of the plugin
+msgid "WP White Security"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.wpwhitesecurity.com/"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:4
+#: wsal-wpforms.php:50
+msgid "WPForms"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:5
+msgid "Form Content"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:10
+msgid "A form was created, modified or deleted"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:11
+msgid "The Form called %PostTitle%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:13
+#: wp-security-audit-log/custom-alerts.php:28
+#: wp-security-audit-log/custom-alerts.php:59
+#: wp-security-audit-log/custom-alerts.php:76
+#: wp-security-audit-log/custom-alerts.php:91
+#: wp-security-audit-log/custom-alerts.php:106
+msgid "Form ID"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:16
+#: wp-security-audit-log/custom-alerts.php:31
+#: wp-security-audit-log/custom-alerts.php:47
+#: wp-security-audit-log/custom-alerts.php:62
+#: wp-security-audit-log/custom-alerts.php:79
+#: wp-security-audit-log/custom-alerts.php:94
+#: wp-security-audit-log/custom-alerts.php:109
+msgid "View form in the editor"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:25
+msgid "A field was created, modified or deleted from a form."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:26
+msgid "The Field called %field_name% in the form %form_name%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:40
+msgid "A form was duplicated"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:41
+msgid "Duplicated the form %OldPostTitle%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:43
+msgid "Source form ID"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:44
+msgid "New form ID"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:56
+msgid "A notification was added to a form, enabled or modified"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:57
+msgid "The Notification called %notifiation_name% in the form %form_name%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:71
+msgid "An entry was deleted"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:72
+msgid "Deleted the Entry with the email address %entry_email%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:74
+msgid "Entry ID"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:75
+msgid "Form name"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:88
+msgid "Notifications were enabled or disabled in a form"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:89
+msgid "Changed the status of all the notifications in the form %form_name%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:103
+msgid "A form was renamed"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:104
+msgid "Renamed the form %old_form_name% to %new_form_name%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:118
+msgid "An entry was modified"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:119
+msgid "Modified the Entry with ID %entry_id%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:121
+msgid "From form"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:122
+msgid "Modified field name"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:123
+msgid "Previous value"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:124
+msgid "New Value"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:127
+msgid "View entry in the editor"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:136
+msgid "Plugin access settings were changed"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:137
+msgid "Changed the WPForms access setting %setting_name%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:139
+msgid "Type"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:140
+msgid "Previous privileges"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:141
+msgid "New privileges"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:151
+msgid "Currency settings were changed"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:152
+msgid "Changed the <strong>currency</strong> to %new_value%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:154
+msgid "Previous currency"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:164
+msgid "A service integration was added or deleted"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:165
+msgid "A service integration with %service_name%."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:167
+msgid "Connection name"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:168
+msgid "Service"
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:178
+msgid "An addon was installed, activated or deactivated."
+msgstr ""
+
+#: wp-security-audit-log/custom-alerts.php:179
+msgid "The addon %addon_name%."
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/WPFormsSensor.php:217
+#: wp-security-audit-log/custom-sensors/WPFormsSensor.php:236
+#: wp-security-audit-log/custom-sensors/WPFormsSensor.php:285
+msgid "Default Notification"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/WPFormsSensor.php:561
+msgid "No email provided"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/WPFormsSensor.php:705
+msgid "Own"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/WPFormsSensor.php:707
+msgid "Other"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/WPFormsSensor.php:709
+msgid "N/A"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/WPFormsSensor.php:761
+msgid "Mailchimp"
+msgstr ""
+
+#: wp-security-audit-log/custom-sensors/WPFormsSensor.php:763
+msgid "GetResponse"
+msgstr ""
+
+#: wsal-wpforms.php:51
+#: wsal-wpforms.php:52
+msgid "Notifications in WPForms"
+msgstr ""
+
+#: wsal-wpforms.php:53
+#: wsal-wpforms.php:54
+msgid "Entries in WPForms"
+msgstr ""
+
+#: wsal-wpforms.php:55
+#: wsal-wpforms.php:56
+msgid "Fields in WPForms"
+msgstr ""
+
+#: wsal-wpforms.php:57
+msgid "Forms in WPForms"
+msgstr ""
